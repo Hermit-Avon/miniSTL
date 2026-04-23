@@ -1,4 +1,3 @@
-// TODO: integral_constant, is_same, remove_reference, enable_if
 #pragma once
 
 namespace mini_stl {

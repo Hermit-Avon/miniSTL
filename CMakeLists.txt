@@ -25,6 +25,7 @@ FetchContent_MakeAvailable(googletest)
 add_executable(test_smoke
   tests/test_smoke.cpp
   tests/test_type_traits.cpp
+  tests/test_utility.cpp
 )
 target_link_libraries(test_smoke PRIVATE mini_stl GTest::gtest_main)
 
