@@ -28,6 +28,7 @@ add_executable(test_smoke
   tests/test_utility.cpp
   tests/test_construct.cpp
   tests/test_allocator.cpp
+  tests/test_iterator_traits.cpp
 )
 target_link_libraries(test_smoke PRIVATE mini_stl GTest::gtest_main)
 
